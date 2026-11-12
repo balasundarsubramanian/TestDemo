@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-02T11:49:28.705Z",
+        "line": 5,
+        "name": "user login page",
+        "description": "",
+        "id": "user-can-book-the-hotel-using-adactin-application;user-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3767003000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launch the url of the adactin",
+            "match": {
+              "location": "com.ada.stepdefinition.AdaStepdefinition.user_launch_the_url_of_the_adactin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216754400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter  in the username field",
+            "match": {
+              "location": "com.ada.stepdefinition.AdaStepdefinition.user_enter_in_the_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113212600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter  in the password field",
+            "match": {
+              "location": "com.ada.stepdefinition.AdaStepdefinition.user_enter_in_the_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1043713400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should click the login and it will be navigate to the search page",
+            "match": {
+              "location": "com.ada.stepdefinition.AdaStepdefinition.user_should_click_the_login_and_it_will_be_navigate_to_the_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user can book the hotel using adactin application",
+    "description": "",
+    "id": "user-can-book-the-hotel-using-adactin-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/ada/feature/Adactin.feature",
+    "tags": []
+  }
+]
